@@ -14,7 +14,7 @@
     animation: Gradient 15s ease infinite;
     position: absolute;
     height: 300vh;
-    width: 200vh;
+    width: 100%;
     overflow: scroll;
     padding:0;
     margin:0px;
