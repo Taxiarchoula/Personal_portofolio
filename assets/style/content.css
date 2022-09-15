@@ -79,6 +79,7 @@
 	/*************************/
 .fixed-center{
 		border-radius: 0.10em;
+		display: flex;
 		border: solid 1px rgba(12, 248, 248, 0.751);
 		background-color: transparent;
 		background-color: #000000;
@@ -118,6 +119,7 @@
 	/*************************/
 #fixed-center{
 		border-radius: 0.10em;
+		display: flex;
 		border: solid 1px rgba(12, 248, 248, 0.751);
 		background-color: transparent;
 		background-color: #000000;
@@ -139,6 +141,7 @@
 	/*************************/
 .fixed-center1{
 		border-radius: 0.10em;
+		display: flex;
 		border: solid 1px rgba(12, 248, 248, 0.751);
 		background-color: transparent;
 		background-color: #000000;
