@@ -33,7 +33,7 @@
 
 /* ---- particles.js canva ---- */
 canvas{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0;
     right: 0;
@@ -45,7 +45,7 @@ canvas{
 /* ---- particles.js container ---- */
 
 #particles-js{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
   }
