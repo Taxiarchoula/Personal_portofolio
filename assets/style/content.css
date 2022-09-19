@@ -1,0 +1,276 @@
+.content {
+	flex: 1 1 0;
+	padding: 5rem;
+}
+
+.content h1 {
+	color: #80F4EB;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.content p {
+	color: #80F4EB;
+}
+
+@media (max-width: 1024px) {
+	.content{
+		padding: 10rem;
+	}
+}
+@media (max-width: 768px) {
+    .content {
+		padding-top: 15rem;
+		padding-left: 5rem;
+	}
+	
+}
+.section {
+	width: 50vw;
+	height: 80vh;
+
+}
+@media (max-width: 500px) {
+	.section{
+		width: 50vw;
+		height: 70vh;
+	}
+
+}
+.ico-nav-menu {
+	position: absolute;
+	width: 10%;
+	background: url('https://lh3.googleusercontent.com/13S2jhYYjo5lOwsA2fNIji5TMeeOPWF1tFe-WMi98XPHzEWEPgNS5aGoUQ3Csgq96jaUXr5Rr4g58KnkQUZh-_01atfxj_rHf0ML0apHfsm3w6y4AeTsmDsO734xaAmIQV21TvafhQ=s48-p-k') no-repeat;
+	background-size: contain;
+  }
+  
+  .section_icons{
+	position: fixed;
+	right: 0%;
+	top: 30%;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+  
+  }
+  .section_icons ul{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+  }
+  .section_icons ul li{
+	margin: 40px 40px;
+	font-size: 24px;
+  }
+  .section_icons ul li:first-child{
+	margin-left: 28%;
+  }
+  .fa_custom {
+	color: #c4bcbc;
+  }
+  
+  .fa_custom:hover{
+	color: #80F4EB;
+  }
+  .section_icons ul li a{
+	text-decoration: none;
+  }
+@media (max-width: 768px) {
+    .section_icons{
+		display: none;
+	}
+	.img-fluid{
+		display: none;
+	}
+  }
+
+/* Styling intro */
+/*************************/
+.fixed-center{
+		border-radius: 0.10em;
+		border: solid 1px rgba(12, 248, 248, 0.751);
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		position: absolute;
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		width: 50%;
+		max-width: 300vh;
+		height:15%;
+		max-height: 500%;
+		left: 30%;
+		top: 8%;
+		animation-name: animate-pop;
+  		animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
+	
+}
+
+@keyframes animate-pop {
+	0% {
+	  opacity: 0;
+	  transform: scale(0.5, 0.5);
+	}
+		  
+	100% {
+	  opacity: 1;
+	  transform: scale(1, 1);
+	}
+  }
+.console-container {
+		display:inline-block;
+		text-align:center;
+		display:block;
+		position:absolute;
+		color:#80F4EB;
+		margin:auto;
+		align-items: center;
+}
+.console-underscore {
+		display:inline-block;
+		position:relative;
+		align-items: center;
+}
+
+
+
+/*************************/
+/* Styling aboutme */
+/*************************/
+#fixed-center{
+		border-radius: 0.10em;
+		border: solid 1px rgba(12, 248, 248, 0.751);
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		position: absolute;
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		width: 50%;
+		max-width: 300vh;
+		height: 15%;
+		max-height: 500%;
+		left: 30%;
+		top: 35%;	
+}	
+@media (max-width: 1414px) {
+	#fixed-center{
+		height: fit-content;
+
+	}
+}
+@media (max-width: 500px) {
+	#fixed-center{
+		top: 28%;
+
+	}
+}
+/*************************/
+/* Styling Projects */
+/*************************/
+.fixed-center1{
+		border-radius: 0.10em;
+		border: solid 1px rgba(12, 248, 248, 0.751);
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		position: absolute;
+		background-color: transparent;
+		background-color: #000000;
+		opacity: .9;
+		width: 50%;
+		max-width: 300vh;
+		height:15%;
+		max-height: 500%;
+		left: 30%;
+		top: 70%;
+
+}
+
+
+/*styling loading*/
+.ring
+{
+  position:relative;
+  left:50%;
+  top: 40%;
+  transform:translate(-50%,-50%);
+  width:180px;
+  height:180px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:#80F4EB;
+  letter-spacing: 4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #80F4EB;
+  box-shadow:0 0 20px rgba(255,255,255,.1);
+
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #80F4EB;
+  border-right:3px solid #80F4EB;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+
+
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+	
+@media (max-width: 450px) {
+	.ring{
+		font-size: 2px;
+		line-height: 40px;
+		width: 100px;
+		height: 100px;
+	}
+
+}
+/*************************/
+/* Styling button back to top */
+/*************************/
+#btn-back-to-top {
+	position: fixed;
+	z-index: 9999;
+	bottom: 20px;
+	right: 40px;
+	border-radius: 100px;
+	display: none;
+  }
